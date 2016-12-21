@@ -7,8 +7,8 @@ LDLIBS=/home/gdh/program/unix-program/libmisc.a
 
 #common definition
 
-CFLAGS = -ansi -Wall
-CFLAGSO = -ansi -Wall -O
+CFLAGS = -ansi -Wall -g
+CFLAGSO = -ansi -Wall -O -g
 
 LIB=/home/gdh/program/unix-program/libmisc.a
 
