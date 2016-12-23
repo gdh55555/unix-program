@@ -1,6 +1,6 @@
 include ../Make.defines 
 
-target:= ls stdin stdout filehole fileflag filetype umask changemod unlink longpath ftw4
+target:= ls stdin stdout filehole fileflag filetype umask changemod unlink longpath ftw4 tmpname
 
 all: $(target)
 

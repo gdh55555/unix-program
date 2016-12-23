@@ -3,13 +3,13 @@ CC=gcc
 COMPILE.c=$(CC) $(CFLAGS) $(CPPFLAGS) -c
 NOANSICOMPILE.C=$(CC) $(NOANSICFLAGS) $(CPPFLAGS) -c
 LINK.c = $(CC) $(CFLAGS) $(CPPFLAGS) $(LDFLAGS)
-LDLIBS=/home/gdh/program/unix-program/libmisc.a
+LDLIBS=../libmisc.a
 
 #common definition
 
 CFLAGS = -ansi -Wall -g
 CFLAGSO = -ansi -Wall -O -g
 
-LIB=/home/gdh/program/unix-program/libmisc.a
+LIB=../libmisc.a
 
 TEMPFILES = cor core.* *.o temp.* *.out typescript*
